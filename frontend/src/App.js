@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://dev160235-neuroscan-backend.hf.space";
 
 const CLASS_COLORS = {
   glioma:     { bg: "#fef2f2", text: "#991b1b", border: "#fecaca" },
